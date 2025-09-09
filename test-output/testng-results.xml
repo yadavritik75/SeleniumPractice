@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-09T11:36:17 IST" name="Default suite" finished-at="2025-09-09T11:37:02 IST" duration-ms="45580">
+  <suite started-at="2025-09-09T15:30:59 IST" name="Default suite" finished-at="2025-09-09T15:31:39 IST" duration-ms="40741">
     <groups>
     </groups>
-    <test started-at="2025-09-09T11:36:17 IST" name="Default test" finished-at="2025-09-09T11:37:02 IST" duration-ms="45580">
-      <class name="checkbox">
-        <test-method signature="SelectCheckBoxes()[pri:0, instance:checkbox@4fb0f2b9]" started-at="2025-09-09T11:36:17 IST" name="SelectCheckBoxes" finished-at="2025-09-09T11:37:02 IST" duration-ms="45547" status="PASS">
+    <test started-at="2025-09-09T15:30:59 IST" name="Default test" finished-at="2025-09-09T15:31:39 IST" duration-ms="40741">
+      <class name="WebTables">
+        <test-method signature="getTableData()[pri:0, instance:WebTables@4fb0f2b9]" started-at="2025-09-09T15:30:59 IST" name="getTableData" finished-at="2025-09-09T15:31:39 IST" duration-ms="40705" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectCheckBoxes -->
-      </class> <!-- checkbox -->
+        </test-method> <!-- getTableData -->
+      </class> <!-- WebTables -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PracticeForm">
+      <class name="WebTables">
         <methods>
-          <include name="Form"/>
+          <include name="getTableData"/>
         </methods>
-      </class> <!-- PracticeForm -->
+      </class> <!-- WebTables -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
