@@ -38,6 +38,10 @@ public void SelectCheckBoxes()
 			System.out.println(text);
 		}
 	}
+	driver.findElement(By.xpath("(//*[text()='Radio Button'])[1]")).click();
+	WebElement SelectRadio = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//*[text()='Yes'])[1]")));
+	SelectRadio.click();
+	
 	
 	
 	
