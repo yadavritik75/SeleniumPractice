@@ -23,7 +23,7 @@ public void getTableData()
 	WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 	WebElement clickTab = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Web Tables']")));
 	clickTab.click();
-	WebElement search = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@placeholder='Type to search']")));
+	/*WebElement search = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@placeholder='Type to search']")));
 	search.sendKeys("Kierra");
 	JavascriptExecutor js=(JavascriptExecutor)driver;
 	js.executeScript("window.scrollBy(0,300)");
@@ -33,12 +33,19 @@ public void getTableData()
 	{
 		System.out.println(option.getText());
 	}*/
-	for(WebElement option :options)
+	/*for(WebElement option :options)
 	{
 		if(option.getText().equalsIgnoreCase("kierra@example.com"))
 				{	
 			System.out.println(option.getText());
 				}
+	}*/
+	
+	driver.findElement(By.xpath("//div[text()='First Name']")).click();
+	List<WebElement> list = driver.findElements(By.xpath("//div[@class='rt-tr-group']//div[@class='rt-td'][1]"));
+	for(WebElement listsName :list)
+	{
+		System.out.println(listsName.getText());
 	}
 		
 	
