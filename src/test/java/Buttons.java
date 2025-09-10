@@ -29,7 +29,9 @@ public void ButtonCode()
 	action.moveToElement(secondButton).contextClick(secondButton).perform();
 	WebElement confirmation2 = driver.findElement(By.xpath("//p[text()='You have done a right click']"));
 	String confrimText = confirmation2.getText();
-	Assert.assertEquals(confrimText,"You have done a right clicks");
+	Assert.assertEquals(confrimText,"You have done a right click");
+	
+	
 	
 	
 	
