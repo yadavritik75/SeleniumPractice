@@ -33,6 +33,7 @@ public void getTableData()
 	{
 		System.out.println(option.getText());
 	}*/
+	
 	/*for(WebElement option :options)
 	{
 		if(option.getText().equalsIgnoreCase("kierra@example.com"))
@@ -40,7 +41,8 @@ public void getTableData()
 			System.out.println(option.getText());
 				}
 	}*/
-	
+	 
+	//print data of first name column 
 	driver.findElement(By.xpath("//div[text()='First Name']")).click();
 	List<WebElement> list = driver.findElements(By.xpath("//div[@class='rt-tr-group']//div[@class='rt-td'][1]"));
 	for(WebElement listsName :list)
