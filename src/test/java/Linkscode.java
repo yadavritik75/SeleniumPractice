@@ -27,6 +27,9 @@ public void BrokenLinks() throws InterruptedException
 		Header.findElements(By.tagName("a")).get(i).sendKeys(click);
 		Thread.sleep(5000);
 	}
+	System.out.println("git checkup 1");
+	System.out.println("git checkup 2");
+	System.out.println("git checkup 3");
 	
 }
 }
